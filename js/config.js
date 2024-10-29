@@ -122,12 +122,12 @@ const defaults = {
 	slant: 0, // The angle at which rain falls; the orientation of the glyph grid
 	resolution: 0.75, // An overall scale multiplier
 	useHalfFloat: false,
-	renderer: "regl", // The preferred web graphics API
+	renderer: "webgl", // The preferred web graphics API
 	suppressWarnings: false, // Whether to show warnings to visitors on load
 	isometric: false,
 	useHoloplay: false,
 	loops: false,
-	skipIntro: true,
+	skipIntro: false,
 	testFix: null,
 };
 

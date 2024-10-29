@@ -1,0 +1,76 @@
+/*.tab-spacer{visibility:hidden}*/
+
+/* ::selection {
+  background-color: #bababa;
+  color: white;
+} */
+
+/* Setup canvas width*/
+canvas {
+  background: black;
+  display: block;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
+button.vivaldi {
+    z-index: 5;
+}
+
+/* Space for menu button when menu horizontal option is on */
+#panels-container {
+  margin-top: 25px;
+}
+
+/* Remove blank square of favicon in selected tab*/
+/* .tab-position .tab.active .tab-header .favicon {
+  background-color: transparent !important;
+  box-shadow: inset 0 0 0 1px transparent !important;
+} */
+
+/* Remove blank square of favicon in webpanel*/
+/* #switch button.webviewbtn img {
+  background-color: transparent !important;
+} */
+
+/* Remove title bar and change color of hover window buttons */
+#header {
+  min-height: 0 !important;
+  z-index: auto !important;
+}
+.topmenu,
+#pagetitle {
+  display: none !important;
+}
+.window-buttongroup {
+  z-index: 2;
+}
+.window-minimize:hover {
+  background-color: green !important;
+}
+.window-maximize:hover {
+  background-color: yellow !important;
+}
+.window-close:hover {
+  background-color: red !important;
+}
+
+/*.win .topmenu {
+  color: #fff;
+  position: absolute;
+  top: 5px;
+  left: 98px;
+}
+
+.topmenu+#tabs-container.top {
+  border-bottom: 1px solid;
+  position: absolute;
+  top: 62px;
+  width: 100%;
+  z-index: 1 !important;
+}
+
+#tabs-container.bottom #tabs, #tabs-container.top #tabs {
+  height: 30px !important;
+}*/
