@@ -84,7 +84,7 @@ const defaults = {
 	animationSpeed: 1, // The global rate that all animations progress
 	fps: 60, // The target frame rate (frames per second) of the effect
 	forwardSpeed: 0.25, // The speed volumetric rain approaches the eye
-	bloomStrength: 0.7, // The intensity of the bloom
+	bloomStrength: 0.45, // The intensity of the bloom
 	bloomSize: 0.4, // The amount the bloom calculation is scaled
 	highPassThreshold: 0.1, // The minimum brightness that is still blurred
 	cycleSpeed: 0.03, // The speed glyphs change
