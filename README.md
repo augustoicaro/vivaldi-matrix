@@ -40,6 +40,7 @@ WebGL suport on Linux is made in two steps:
 
 1) Enabling unsafe webgpu on: [vivaldi://flags/#enable-unsafe-webgpu](vivaldi://flags/#enable-unsafe-webgpu)
 2) Starting vivaldi with the `Vulkan` flag: `vivaldi --enable-features=Vulkan`
+3) [Optional] Enable vulkan as default behaviour chanching the shortcut file in: `/usr/share/applications/vivaldi-stable.desktop`
 
 ## Inpecting Vivaldi start page
 
